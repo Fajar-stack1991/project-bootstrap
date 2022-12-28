@@ -1,93 +1,102 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body{
-    background-color: aqua;
-}
-
-a {
+  }
+  
+  body {
+    background-color: #d0b8a8;
+  }
+  
+  a {
     color: black;
     text-decoration: none;
-}
-
-a:hover {
-    color: greenyellow;
-
-}
-
-/* Bagian Logo */
-.logo-wrapper {
+  }
+  
+  a:hover {
+    color: whitesmoke;
+  }
+  
+  /* Bagian Logo */
+  .logo-wrapper {
     text-transform: uppercase;
     padding: 20px 0px;
-}
-
-/* Bagian Menu */
-.menu {
+  }
+  
+  /* Bagian Menu */
+  .menu {
     background: black;
     padding-left: 0px;
-}
-
-.menu .container {
+  }
+  
+  .menu .container {
     padding-left: 0px;
-}
-
-.menu-items .active {
+  }
+  
+  .menu-items .active {
     background: #2483d6;
-
-}
-
-.menu .menu-items a {
+  }
+  
+  .menu .menu-items a {
     text-decoration: none;
     color: #fff;
     padding: 10px 30px;
     display: block;
-}
-
-.menu .menu-items a:hover {
+  }
+  
+  .menu .menu-items a:hover {
     background: #2483d6;
-
-}
-
-.thumb {
+  }
+  
+  .thumb {
     width: 100%;
-}
-
-.main-news {
+  }
+  
+  .main-news {
     margin-top: 20px;
-}
-
-.main-news h3 {
+  }
+  
+  .main-news h3 {
     line-height: 0.75;
-}
-.main-news h3 a {
+  }
+  .main-news h3 a {
     font-size: 17px;
     text-decoration: none;
     font-weight: 600;
-}
-
-.image {
+  }
+  
+  .image {
     overflow: hidden;
-}
-
-.image-sm {
+  }
+  
+  .image-md {
+    max-width: 250px;
+  }
+  
+  .image-sm {
     max-width: 180px;
-}
-
-.image-xs {
+  }
+  
+  .image-xs {
     max-width: 160px;
-}
-
-.image-xxs {
+  }
+  
+  .image-xxs {
     max-width: 100px;
-}
-
-.image img {
+  }
+  
+  .image img {
     object-fit: cover;
-}
-
-.font-large {
+  }
+  
+  .font-large {
     font-size: 0.9em;
     font-weight: 600;
-}
+  }
+  
+  footer {
+    background-color: #3c2a21;
+  }
+  
+  a.nav-link {
+    color: white;
+  }
