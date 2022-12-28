@@ -29,35 +29,65 @@
     <!-- Navbar -->
     <div class="container-fluid menu">
       <div class="container">
-        <div class="d-flex menu-items">
-          <div class="">
-            <a href="#">Home</a>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <br />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex menu-items">
+                <div class="">
+                  <a href="#">Home</a>
+                </div>
+                <div>
+                  <a href="index.html">Berita</a>
+                </div>
+                <div>
+                  <a href="#">Olahraga</a>
+                </div>
+                <div>
+                  <a href="#">Health</a>
+                </div>
+                <div>
+                  <a href="#">Otomotif</a>
+                </div>
+                <div class="">
+                  <a href="teknologi.html">Teknologi</a>
+                </div>
+                <form class="d-flex" style="margin-left: 10rem" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
           </div>
-          <div>
-            <a href="index.html">Berita</a>
-          </div>
-          <div>
-            <a href="#">Olahraga</a>
-          </div>
-          <div>
-            <a href="#">Health</a>
-          </div>
-          <div>
-            <a href="#">Otomotif</a>
-          </div>
-          <div class="">
-            <a href="teknologi.html">Teknologi</a>
-          </div>
-        </div>
+        </nav>
       </div>
     </div>
+    <!-- End of Navbar -->
     <!-- Bagian Card -->
     <div class="container main-news section">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-xs-12 col-lg-6">
           <img class="thumb mb-3" src="assets/images/cody-gakpo.jpeg" />
           <h3>
-            <a class="font-large" href="detail.html">
+            <a class="font-large" href="pages/detail/detail.html">
               Ten Hag Tanggapi Rumor Cody Gakpo Menuju MU
             </a>
           </h3>
@@ -68,15 +98,12 @@
               <div class="image image-sm mb-1">
                 <img
                   class="thumb"
-                  src="/assets/images/emiliano-martinez.jpeg"
+                  src="https://akcdn.detik.net.id/visual/2021/11/12/ilustrasi-kripto-1_169.jpeg?w=650"
                 />
               </div>
               <h3 class="mb-4">
-                <a
-                  href="https://sport.detik.com/sepakbola/bola-dunia/d-6478996/ledek-pemain-prancis-tindakan-bodoh-yang-dilakukan-emiliano-martinez"
-                >
-                  Ledek Pemain Prancis, Tindakan Bodoh yang Dilakukan Emiliano
-                  Martinez
+                <a href="pages/detail/detail.html">
+                  Kripto Berdarah Pagi Ini, Dogecoin Paling Parah
                 </a>
               </h3>
               <div class="image image-sm mb-1">
@@ -245,16 +272,41 @@
         </div>
       </div>
     </div>
-    <!-- Script Bootsrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Footer -->
+    <footer class="py-3">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">Berita</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">Olahraga</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">Health</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">Otomotif</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">Teknologi</a>
+        </li>
+      </ul>
+      <p class="text-center text-muted">© 2023 Kelompok 1</p>
+    </footer>
   </body>
+
+  <!-- Script Bootsrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
 </html>
